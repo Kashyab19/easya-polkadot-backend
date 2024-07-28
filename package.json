@@ -1,0 +1,24 @@
+{
+  "name": "polka-easya-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.4",
+    "@unique-nft/accounts": "^0.3.7",
+    "@unique-nft/sdk": "^0.7.7",
+    "@unique-nft/sr25519": "^0.0.2",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "openai": "^4.53.2"
+  }
+}
